@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Zilla+Slab:wght@500&display=swap');
 
 body {
    font-family: 'Ubuntu' , sans-serif;
-   
 }
 
-.background {
-     height: 100vh;
+.home {
+    height: 100vh;
     background: url('/images/background.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -16,6 +14,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
+
+.navbar-brand {
+    font-family: 'Zilla Slab' , sans-serif;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+
+
