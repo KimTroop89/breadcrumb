@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Ubuntu&display=swap');
+
+body {
+   font-family: 'Ubuntu' , sans-serif;
+   
+}
+
+.background {
+     height: 100vh;
+    background: url('/images/background.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
